@@ -13,7 +13,7 @@ const Footer = () => {
     setLoading(true); // Disable button immediately after submit
 
     try {
-      const response = await fetch('https://portfolio-sidh-hosted-back.onrender.com', {
+      const response = await fetch('https://portfolio-sidh-hosted-back.onrender.com/api/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
