@@ -16,21 +16,21 @@ const Projects = () => {
                 <ProjectCard
                     title="AI integrated Chrome Extendion"
                     bannerImg={chrome}
-                    main1="Developed an extension the extract data from a web page and downloads a txt file containing precise information of that page."
+                    main1="Developed an extension that extracts data from a web page and downloads a txt file containing precise information of that page."
                     main2="Groq AI Apis, Manifest 3 and Javascript"
                     source="https://github.com/SidheshwarSarangal/devfolio-repo-chrome-ext.git"
                 />
                 <ProjectCard
                     title="IITR Biotech Dpt. Project"
                     bannerImg={ReatcNodejs}
-                    main1="Developed a library app for managing the department library, hanfling books borrow/return by the students and making the work easy for the librarian."
+                    main1="Developed a library app for managing the department library, handling books borrow/return by the students and making the work easy for the librarian."
                     main2="React, Express and MongoDB"
                     source="https://github.com/SidheshwarSarangal/department-vikram-project.git"
                 />
                 <ProjectCard
                     title="AI-Powered Web Application"
                     bannerImg={AngularExpress}
-                    main1="Developed a website with ai-powered translations and image analysis, integrated with CASHFREE payment Gateway."
+                    main1="Developed a website with ai-powered translation system and image analysis, integrated with CASHFREE payment Gateway."
                     main2="Angular, Express, cloudinary, Groq Apis and Cashfree Apis"
                     source="https://github.com/SidheshwarSarangal/cashfree-ai-new-final.git"
                 />
