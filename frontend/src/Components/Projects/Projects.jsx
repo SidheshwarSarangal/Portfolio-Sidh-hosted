@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div id="Projects" className="p-10 md:p-24 text-white cursor-default w-full bg-[#1d2541] bg-gradient-to-tr from-black to-transparent">
             <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
-            <div className="py-12 px-8 flex flex-wrap gap-10">
+            <div className="py-12  md:px-8 flex flex-wrap gap-10">
                 <ProjectCard
                     title="AI integrated Chrome Extendion"
                     bannerImg={chrome}
