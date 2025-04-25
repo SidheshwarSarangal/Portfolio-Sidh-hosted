@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 const TextChange = () => {
-  const texts = ["Web Development", "Backend", "Frontend","Software Dev","Database","Student@IITR","Passionate Techie!!!!"];
+  const texts = ["Web Development", "Angular","Javascript","C++","Data Structures and Algorithms", "Groq APIs", "API Handling", "React","TailwindCSS", "NextJs", "Express", "MongoDB", "Firebase", "Backend", "Frontend", "Software Dev", "Database", "Student@IITR", "Passionate Techie!!!!"];
   const [currenText, setCurrentText] = useState("");
   const [endValue, setendValue] = useState(true);
   const [isForward, setIsForward] = useState(true);
@@ -20,7 +20,7 @@ const TextChange = () => {
       }
       if (endValue < 2.1) {
         setIsForward(true);
-        setIndex((prev) => (prev+1) % texts.length);
+        setIndex((prev) => (prev + 1) % texts.length);
       }
     }, 100);
 

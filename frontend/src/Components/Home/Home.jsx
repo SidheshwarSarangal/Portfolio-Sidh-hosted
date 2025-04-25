@@ -8,7 +8,7 @@ import { FaRegCommentDots } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="text-white cursor-default  flex  mx-auto flex-col gap-7 md:flex-row justify-between items-center p-10 md:p-20 xl:p-48 sm:flex-1/2">
+    <div className="text-white cursor-default  flex  mx-auto flex-col gap-7 md:flex-row justify-between items-center  p-10 md:p-20 xl:p-48 sm:flex-1/2">
       <div className="md:w-4/6 md:pt-10 w-">
         <h1 class="text-4xl md:text-6xl font-bold flex flex-row items-center leading-normal tracking-tighter animated-gradient">
           Hello I'm Sidheshwar
@@ -17,7 +17,7 @@ const Home = () => {
 
         <TextChange />
         <p className="text-xl md:text-2xl mt-2 tracking-tight ">
-          Passionate developer skilled in HTML, CSS, JavaScript, React, Express, and MongoDB
+          Passionate developer skilled in HTML, CSS, JavaScript, React, NextJs, Angular, TailwindCSS, Express, MongoDB and Firebase.
         </p>
 
 

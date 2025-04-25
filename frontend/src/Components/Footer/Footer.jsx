@@ -150,7 +150,7 @@ const Footer = () => {
 
       </div>
       <p className="text-center text-gray-500 text-sm my-5 mx-4">
-        Portfolio of Sidheshwar Sarangal | Created using Vite + React, HTML, Tailwind CSS, and Express (for mail)
+        Portfolio of Sidheshwar Sarangal | Created using Vite + React, HTML, Tailwind CSS, and Express
       </p>
     </div>
 
