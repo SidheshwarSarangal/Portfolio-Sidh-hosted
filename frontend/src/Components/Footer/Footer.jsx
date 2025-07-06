@@ -85,11 +85,11 @@ const Footer = () => {
         </div>
 
         {/* Contact Form */}
+        {/*
         <form
           onSubmit={handleSubmit}
           className="flex flex-col gap-5 bg-white p-6 rounded-2xl mt-10 md:mt-0 w-full md:w-1/3 shadow-lg"
         >
-          {/* Name Field */}
           <label className="flex flex-col text-blue-900">
             <span className="flex items-center gap-2 font-semibold text-sm md:text-lg mb-2">
               <FaUser /> Name
@@ -105,7 +105,6 @@ const Footer = () => {
             />
           </label>
 
-          {/* Email Field */}
           <label className="flex flex-col text-blue-900">
             <span className="flex items-center gap-2 font-semibold text-sm md:text-lg mb-2">
               <MdOutlineEmail /> Email
@@ -121,7 +120,6 @@ const Footer = () => {
             />
           </label>
 
-          {/* Message Field */}
           <label className="flex flex-col text-blue-900">
             <span className="flex items-center gap-2 font-semibold text-sm md:text-lg mb-2">
               <FaRegCommentDots /> Message
@@ -137,17 +135,17 @@ const Footer = () => {
             ></textarea>
           </label>
 
-          {/* Send Button */}
           <button
             type="submit"
             disabled={loading} // 🔥 Disabled when loading
             className={`${loading ? 'bg-gray-400 cursor-not-allowed' : 'bg-cyan-500 hover:bg-cyan-600 cursor-pointer'
               } text-white font-semibold py-3 rounded-lg transition`}
           >
-            {loading ? "Sending..." : "Send"} {/* Button text changes */}
+            {loading ? "Sending..." : "Send"} 
           </button>
         </form>
-
+        */}
+        
       </div>
       <p className="text-center text-gray-500 text-sm my-5 mx-4">
         Portfolio of Sidheshwar Sarangal | Created using Vite + React, HTML, Tailwind CSS and Express
